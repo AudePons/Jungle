@@ -37,7 +37,39 @@ All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the fol
 * [Yuri_B](https://pixabay.com/fr/users/yuri_b-2216431/) 
 ## Project Architecture
 * dist : Contains all the images and CSS files.
-## Commands
+## description of the modules
+### NavBar
+``` 
+### The navigation bar contains when one is not connected the menus :
+- Index
+- Search Bar
+- Categories
+- Log in
+```
+``` 
+### The navigation bar contains when you are connected the menus :
+- Index
+- Search Bar
+- History icon
+- Subscription notification
+- Message notification
+- Profile
+- Add a picture
+- Log out
+```
+### Search Bar on Index
+``` 
+### The slide is composed of the following elements :
+- Slogan
+- Search Bar
+- Categories
+- Author
+```
+
+
+
+
+
 ### AudioModule.cs
 ``` 
 ### Bot join the tchat
