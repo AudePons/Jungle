@@ -35,19 +35,8 @@ All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the fol
 * [teadrinker](https://pixabay.com/fr/users/teadrinker-3776864/) 
 * [terimakasih0](https://pixabay.com/fr/users/terimakasih0-624267/) 
 * [Yuri_B](https://pixabay.com/fr/users/yuri_b-2216431/) 
-
-
-
-
-
-* [Discord.NET](https://www.nuget.org/packages/Discord.Net/)
-* [Discord.Net.Commands](https://www.nuget.org/packages/Discord.Net.Commands/)
-* [Discord.Net.WebSocket](https://www.nuget.org/packages/Discord.Net.WebSocket/)
-* [Libsodium](https://www.nuget.org/packages/dpm-libsodium-net/)
 ## Project Architecture
-* Classes : Contains all classes to use objects in projects.  
-* Modules : Contains all modules, ie the features and commands of the bot.  
-* Services : Contains all the useful services at the back of the bot. 
+* dist : Contains all the images and CSS files.
 ## Commands
 ### AudioModule.cs
 ``` 
