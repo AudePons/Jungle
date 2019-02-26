@@ -8,7 +8,8 @@ The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/Lassegue
 * [FontAwesome](https://fontawesome.com/)
 * [JQuery](https://jquery.com/)
 ## Plugin Resources
-All the following plugins made on the sites [Bootsnipp]() and [Code Pen]() :
+All the following plugins made on the sites [Bootsnipp](https://bootsnipp.com) and [Code Pen](https://codepen.io/) :
+* [Circular Tabs](https://bootsnipp.com/snippets/33Rxn)
 * [Comments](https://codepen.io/kavendish/pen/aOdopx)
 * [Image Gallery](https://bootsnipp.com/snippets/aMGnk)
 ## Photo Resources
@@ -48,6 +49,10 @@ All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the fol
 ### When displaying the details of an image, there are two billboards :
 - The other photos of the user
 - Similar images
+```
+### Comments
+``` 
+### It is possible to comment on a photo.
 ```
 ### Gallery
 ``` 
