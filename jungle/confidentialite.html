@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Jungle</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Fontawesome CSS !-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- Bootstrap CSS !-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!-- Bootstrap network CSS !-->
+    <link href="dist/css/bootstrap-social.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Jquery !-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper CSS !-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <!-- Popper JS !-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <!-- Bootstrap JS !-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <!-- Logo !-->
+    <link rel="shortcut icon" type="image/x-icon" href="dist/image/logo/icon_jungle.ico" />
+    <!-- Custom CSS !-->
+    <link href="dist/css/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+
+    <!-- Navigation !-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand index" href="index.html">
+            <img src="dist/image/logo/logo_jungle.png" width="35" height="35" class="d-inline-block align-top" alt="">
+            Jungle
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                            <option selected>Catégorie</option>
+                            <option value="0">Animaux</option>
+                            <option value="1">Art</option>
+                            <option value="2">Automobile</option>
+                            <option value="3">Fleurs</option>
+                            <option value="4">Food</option>
+                            <option value="5">Galaxy</option>
+                            <option value="6">Informatique</option>
+                            <option value="7">Musique</option>
+                            <option value="8">Objet</option>
+                            <option value="9">Sport</option>
+                            <option value="10">Texture</option>
+                            <option value="11">Urbain</option>
+                        </select>
+                        <a href="search_result.html"><button type="button" class="btn btn-success"><i
+                                    class="fas fa-search"></i></button></a>
+                    </form>
+                </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item">
+                    <a class="active-deco" href="all_categories.html"><i class="fas fa-leaf"></i> Catégorie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="active-deco" href="connexion.html"><i class="fas fa-sign-in-alt"></i> Se connecter</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="css-titre text-center" id="arrow">
+        <h1 class="css-icon"><i class="fas fa-info-circle"></i> Politique de confidentialité</h1>
+        Dernière mise à jour : 25/02/2019
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Qu'est ce que c'est ? </h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            La Politique de confidentialité décrit les pratiques des applications en matière de confidentialité. Si vous
+            résidez en France, vous serez en relation avec Jungle Inc. et la législation qui s’applique est celle de la
+            Nouvelle Aquitaine et de France. <br />
+            Notez que pour utiliser nos applications et sites Web, vous autorisez Jungle à transférer vos
+            informations personnelles au-delà des frontières nationales et dans d’autres pays où Jungle et ses
+            partenaires sont présents, y compris aux États-Unis. La protection de la vie privée et les droits des
+            autorités en matière d’accès à vos informations dans ces pays peuvent ne pas être équivalents à ceux de
+            votre pays. Nous ne transférerons vos informations personnelles vers ces pays que lorsque la loi nous y
+            autorise et nous prendrons les mesures nécessaires pour nous assurer que vos informations personnelles
+            continuent de bénéficier des protections adéquates. <br />
+            Si le contenu ou les informations que vous stockez contiennent des informations personnelles d’autres
+            personnes, vous devez être légalement autorisé à partager ces informations personnelles avec Jungle.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Lorsque votre consentement est requis : </h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Nous vous demanderons votre autorisation avant (i) de vous envoyer des informations et du contenu
+            promotionnel concernant Jungle ; (ii) d’accéder aux informations stockées sur votre appareil concernant
+            votre utilisation et vos interactions avec des sites Web et des applications (par exemple, des réunions
+            Jungle Connect) et des rapports d’incident ; et (iii) d’utiliser des systèmes automatisés pour analyser
+            votre contenu. Vous pouvez retirer votre consentement relatif à de telles activités à tout moment.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Ce qu'explique cette politique : </h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Cette politique explique quand nous traitons des informations personnelles aux fins de nos intérêts
+            légitimes. Vous pouvez nous demander d’arrêter le traitement de ces informations.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Vos informations personnelles : </h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Nous utilisons vos informations personnelles pour vous permettre de vous enregistrer auprès de Jungle et
+            d’accéder à nos sites Web et applications, ainsi qu’à d’autres produits ou services que vous souhaitez.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Vos informations personnelles : </h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Nous utilisons vos informations personnelles pour vous permettre de vous enregistrer auprès de Jungle et
+            d’accéder à nos sites Web et applications, ainsi qu’à d’autres produits ou services que vous souhaitez.
+            <br />
+            Nous transférons vos informations personnelles vers les États-Unis et d’autres pays qui peuvent être en
+            dehors du pays dans lequel vous vivez. Nous utilisons les clauses contractuelles approuvées par la
+            Commission européenne et le Bouclier de protection des données pour vous aider à protéger vos
+            informations personnelles.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Fonctionnalité interactives : </h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Nous fournissons des fonctionnalités interactives qui entrent en contact avec les sites de réseaux
+            sociaux, tels que Facebook. Si vous utilisez ces fonctionnalités, ces sites nous enverront des
+            informations personnelles vous concernant.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Cookies : </h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Nous utilisons des cookies et d’autres technologies pour suivre l’utilisation de nos sites Web et
+            applications.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Commentaires : </h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Les sites Web et applications Jungle comportent plusieurs zones permettant de poster des commentaires,
+            de charger des photos ou d’envoyer un contenu qui sera accessible au public lorsque vous choisissez de
+            participer à ces activités. Nous divulguons également des informations personnelles à d’autres
+            entreprises au sein de la famille Jungle et à des partenaires publicitaires et commerciaux conformément
+            à vos choix. Nous partageons également les informations avec des tiers que nous engageons pour traiter
+            les informations en notre nom ou lorsque cela est requis par la loi, ou dans certaines autres
+            situations.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Questions : </h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            <div class="col-sm-12 css-quest">
+                • <a href="#confidentialite">Que couvre la Politique de confidentialité ?</a>
+            </div>
+            <div class="col-sm-12 css-quest">
+                • <a href="#info_collectees">Quelles sont les informations me concernant collectées par Jungle ?</a>
+            </div>
+            <div class="col-sm-12 css-quest">
+                • <a href="#info_use_legal">Comment Jungle utilise-t-il les informations qu’il collecte à mon sujet et
+                    quelles sont
+                    les bases légales de ces utilisations ?</a>
+            </div>
+            <div class="col-sm-12 css-quest">
+                • <a href="#info_partage">Mes informations personnelles sont-elles partagées par Jungle ?</a>
+            </div>
+            <div class="col-sm-12 css-quest">
+                • <a href="#info_app_jungle">Mes informations personnelles apparaissent-elles sur des sites Web Jungle
+                    ?</a>
+            </div>
+            <div class="col-sm-12 css-quest">
+                • <a href="#info_secure">Mes informations personnelles sont-elles sécurisées ?</a>
+            </div>
+            <div class="col-sm-12 css-quest">
+                • <a href="#info_stockage">Où mes informations personnelles sont-elles stockées par Jungle ?</a>
+            </div>
+            <div class="col-sm-12 css-quest">
+                • <a href="#info_transfert">Mes informations personnelles sont-elles transférées au-delà des frontières nationales par
+                    Jungle ?</a>
+            </div>
+            <div class="col-sm-12 css-quest">
+                • <a href="#info_droit">Quels droits ai-je sur mes informations personnelles et comment puis-je les exercer ?</a>
+            </div>
+            <div class="col-sm-12 css-quest">
+                • <a href="#retrait">Retrait de votre consentement ou refus du marketing direct.</a>
+            </div>
+            <div class="col-sm-12 css-quest">
+                • <a href="#info_conserve">Pendant combien de temps mes informations sont-elles conservées par Jungle ?</a>
+            </div>
+            <div class="col-sm-12 css-quest">
+                • <a href="#change_pol">Cette Politique de confidentialité va-t-elle changer ?</a>
+            </div>
+            <div class="col-sm-12 css-quest">
+                • <a href="#info_contact">Qui puis-je contacter si j’ai des questions ou des remarques ?</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap" id="confidentialite">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Que couvre la Politique de confidentialité ?</h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Cette Politique de confidentialité décrit comment Jungle (également désigné par « nous », « notre » ou «
+            nos ») utilisera vos informations dans les contextes suivants : <br />
+            • les sites Web Jungle ; les services en ligne tels que Behance, ainsi que les éléments en ligne de
+            Creative Cloud, de Document Cloud et d’Experience Cloud (communément désignés par « sites Web ») ; <br />
+            • les applications pour postes de travail et les applications mobiles (communément désignées par «
+            applications ») qui incluent une référence à cette politique ; <br />
+            • les pratiques marketing, commerciales et publicitaires de Jungle. <br />
+            • Veuillez noter que les sites Web et les applications fournis par certaines entreprises acquises par
+            Jungle peuvent fonctionner selon leurs propres politiques de confidentialité jusqu’à ce que leurs
+            pratiques de confidentialité soient intégrées aux pratiques de confidentialité de Jungle. Pour obtenir
+            la liste actuelle de ces entreprises.<br />
+            • Des informations de confidentialité supplémentaires sont proposées pour certaines applications et
+            certains sites Web Jungle. <br />
+            Consultez également les Conditions d’utilisation de Jungle ainsi que les autres Conditions
+            d’utilisation ou Contrats de licence de produit pouvant s’appliquer à l’application ou au site Web
+            que vous utilisez.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap" id="info_collectees">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Quelles sont les informations me concernant collectées par Jungle ?</h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            <h6><br />I) L’identifiant Jungle, l’enregistrement et le service clientèle.</h6>
+            <div class="col-12">
+                Lorsque vous vous enregistrez pour utiliser une application ou un site Web Jungle, que vous créez
+                un compte Jungle ID ou que vous nous contactez pour obtenir une assistance ou des offres
+                supplémentaires, Jungle collecte des informations permettant de vous identifier. Elles comprennent :
+                <br />
+                • Le nom. <br />
+                • La date de naissance. <br />
+                • Le nom de société. <br />
+                • L'adresse électronique. <br />
+                • Le numéro de téléphone. <br />
+                • L'adresse. <br />
+                • Le pays. <br />
+                • L'adresse IP. <br />
+                • Les informations de paiement / de facturation (lorsqu'une application ou un site wev est « payant
+                »). <br />
+                • Les conditions d'éligibilité (par exemple, pour les éditions des applications à destination des élèves
+                et des enseignants). <br />
+                • Les types d'applications et de sites web ciblés. <br />
+                • Le contenu des communications avec le services clientèle. <br />
+                Pour maintenir à jour nos bases de données et vous fournir un contenu et les expériences les plus
+                pertinents possibles, nous associons parfois les informations que vous nous avez communiquées à des
+                données tierces, conformément à la loi en vigueur. Par exemple, la taille, le secteur et d’autres
+                informations sur l’entreprise pour laquelle vous travaillez (lorsque vous avez fourni le nom de
+                l’entreprise) seront obtenues auprès de sources telles que des sites de réseaux professionnels et des
+                fournisseurs de services d’information.
+            </div>
+            <h6><br />II) Applications et sites Web Jungle.</h6>
+            <div class="col-12">
+                Nous collectons des informations concernant votre utilisation de nos sites Web et applications,
+                notamment lorsque vous accédez à Internet par l’intermédiaire d’une fonctionnalité d’une application
+                pour postes de travail (pour la synchronisation de photos, par exemple). Selon l’application ou le site
+                Web, cette information peut être anonyme ou vous être associée. Cela comprend : <br />
+                • L’adresse IP. <br />
+                • Le type de navigateur et d’appareil. <br />
+                • La page Web via laquelle vous avez accédé à un site Web Jungle. <br />
+                • Les termes saisis dans un moteur de recherche qui vous ont permis d’arriver jusqu’à un site Web
+                Jungle. <br />
+                • L’utilisation et la navigation sur les sites Web et les applications (collectées via des cookies
+                et des technologies similaires, ou par les serveurs Jungle lorsque vous êtes connecté à l’application ou
+                au site Web). <br />
+                • L’analyse de votre contenu (par exemple, des journaux d’activité et des commentaires directs de
+                votre part) envoyé ou reçu via la fonctionnalité en ligne d’une application ou d’un site Web Jungle, ou
+                stocké sur des serveurs Jungle. <br /> <br />
+                Les liens suivants fournissent des informations supplémentaires sur : <br />
+                • Programme d’amélioration des produits Jungle. <br />
+                • FAQ de Desktop Usage Tracking. <br />
+                • FAQ sur les informations d’utilisation des applications mobiles. <br />
+                • FAQ sur les informations d’utilisation d’Experience Cloud. <br />
+                • Vos choix en matière de confidentialité concernant la manière dont nous utilisons ces
+                informations. <br />
+                • Comment Jungle utilise les cookies et autres technologies similaires. <br />
+                • Comment Jungle utilise des systèmes automatisés pour analyser vos contenus grâce à des techniques
+                telles que l’apprentissage automatique en vue d’améliorer nos applications et sites Web, et comment
+                refuser ces analyses.
+            </div>
+            <h6><br />III) Activation et mises à jour automatiques des applications Jungle.</h6>
+            <div class="col-12">
+                Lorsque vous activez votre application Jungle ou lorsque vous installez une mise à jour de
+                l’application, nous collectons des informations sur : <br />
+                • Votre appareil (fabricant, modèle, adresse IP). <br />
+                • L’application Jungle (version, date d’activation, mises à jour réussies et infructueuses). <br />
+                • Le numéro de série de votre produit (lorsque cela est nécessaire avant de pouvoir utiliser votre
+                produit).
+            </div>
+            <h6><br />IV) E-mails de Jungle.</h6>
+            <div class="col-12">
+                Les e-mails que nous vous envoyons peuvent inclure une technologie (appelée pixels invisibles) qui
+                indique à Jungle si vous avez reçu ou ouvert l’e-mail, ou si vous avez cliqué sur un lien contenu dans
+                cet e-mail. Si vous ne souhaitez pas que nous collections ces informations, vous pouvez vous désabonner
+                de notre liste d’envoi.
+            </div>
+            <h6><br />V) Publicités en ligne Jungle.</h6>
+            <div class="col-12">
+                Jungle fait de la publicité en ligne de différentes façons, notamment en affichant des publicités
+                Jungle sur les sites Web et les applications d’autres entreprises et sur les plateformes de réseaux
+                sociaux, telles que Facebook et LinkedIn. Les sites Web Jungle utilisent des cookies et des technologies
+                similaires fournis par notre propre société ( Jungle Experience Cloud) et par d’autres sociétés qui nous
+                permettent de recueillir des informations supplémentaires pour mesurer et améliorer l’efficacité de
+                notre publicité. Nous collectons des informations telles que : <br />
+                • Les publicités affichées. <br />
+                • Les publicités sur lesquelles vous avez cliqué. <br />
+                • Le site sur lequel la publicité était affichée.
+            </div>
+            <h6><br />VI) Boutons, outils et contenu fournis par d’autres entreprises.</h6>
+            <div class="col-12">
+                Les sites Web et applications Jungle peuvent comporter des boutons, des outils ou du contenu liés
+                aux services d’autres entreprises (par exemple, le bouton « J’aime » de Facebook). Nous pouvons
+                collecter des informations sur votre utilisation de ces fonctionnalités, telles que le contenu « aimé »
+                et les informations d’adresse dans Google Maps. En outre, lorsque vous affichez ou utilisez ces boutons,
+                outils et contenus, ou lorsque vous affichez une page Web ou une application Jungle contenant ces
+                éléments, il arrive que certaines informations de votre navigateur soient automatiquement envoyées à
+                l’autre entreprise. Pour plus d’informations, consultez la politique de confidentialité de l’autre
+                entreprise.
+            </div>
+            <h6><br />VII) Pages des réseaux sociaux de Jungle et services d’authentification sociale.</h6>
+            <div class="col-12">
+                Vous pouvez vous connecter à certaines applications ou sites Web Jungle en utilisant le compte d’un
+                réseau social, par exemple un compte Facebook. Lorsque vous donnez les autorisations appropriées, nous
+                recevons des informations à votre sujet depuis votre compte de réseau social, telles que votre nom,
+                votre emplacement et vos informations démographiques de base. <br />
+                Jungle possède ses propres pages sur de nombreux sites de réseaux sociaux (par exemple, la page
+                Facebook de l’équipe Jungle ® Photoshop®). Nous collectons les informations que vous avez rendues
+                publiques sur votre compte de réseau social, telles que le nom et l’intérêt que vous portez à nos
+                produits et services, lorsque vous interagissez avec nos pages de réseaux sociaux.
+            </div>
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap" id="info_use_legal">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Comment Jungle utilise-t-il les informations qu’il collecte à mon sujet et quelles sont
+                les bases légales de ces utilisations ?</h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Jungle utilise les informations que nous recueillons à votre sujet aux fins suivantes : <br /> <br />
+            • Pour remplir un contrat ou prendre des mesures liées à un contrat : ceci est pertinent lorsque
+            vous vous enregistrez pour utiliser une application ou un site Web Jungle (qu’ils soient payants ou
+            qu’il s’agisse de versions d’évaluation gratuites). Cela comprend :
+            <div class="col-12">
+                - La fourniture des sites Web et applications Jungle auxquels vous vous êtes inscrit, ainsi que les
+                autres services ou produits demandés. <br />
+                - La vérification de votre identité. <br />
+                - L'encaissement de paiements. <br />
+                - L'envoi des communications nécessaires (par exemple, liées aux paiements ou à l’expiration de
+                votre abonnement). <br />
+                - La fourniture du service ou de l’assistance client. <br /> <br />
+            </div>
+            • Comme requis par Jungle pour mener nos activités et poursuivre nos intérêts légitimes, en
+            particulier :
+            <div class="col-12">
+                - Pour fournir les sites Web et applications Jungle auxquels vous vous êtes inscrit, ainsi que les
+                autres produits et services demandés. <br />
+                - Pour analyser votre utilisation et mesurer l’efficacité de nos sites Web et applications afin de
+                mieux comprendre comment ils sont utilisés, de pouvoir les améliorer et engager et fidéliser les
+                utilisateurs. <br />
+                - Pour vous envoyer des informations sur les produits et services Jungle, des offres spéciales et
+                des informations similaires, et partager vos informations avec des tiers à des fins de marketing
+                (lorsque votre consentement n’est pas requis). <br />
+                - Pour analyser votre utilisation de nos sites Web et applications, ainsi que l’interaction avec
+                nos communications, pour adapter et personnaliser le site Web ou l’application et les communications
+                marketing. <br />
+                - Pour utiliser des systèmes automatisés pour analyser votre contenu en utilisant des techniques
+                telles que l’apprentissage automatique afin d’améliorer nos services et l’expérience utilisateur
+                (lorsque votre consentement n’est pas nécessaire). <br />
+                - Pour diagnostiquer les problèmes rencontrés sur nos sites Web et applications. <br />
+                - Pour mener des enquêtes et des recherches marché sur nos clients, leurs intérêts, l’efficacité de
+                nos campagnes de marketing et la satisfaction du client (sauf si nous avons besoin de votre consentement
+                pour entreprendre de telles enquêtes, auquel cas nous ne le ferons qu’avec votre permission). <br />
+                - Pour enquêter et répondre aux commentaires ou aux plaintes que vous pourriez nous envoyer. <br />
+                - Pour vérifier la validité du code de vérification, du numéro de compte et du numéro de carte que
+                vous envoyez, si vous utilisez une carte de crédit ou de débit, pour éviter les fraudes (nous avons
+                recours à des tiers pour cela, reportez-vous à la section «Jungle partage-t-il mes informations
+                personnelles ? » ci-dessous). <br />
+                - Dans le cadre de réclamations légales, de conformité, de réglementation et d’enquête, le cas
+                échéant (y compris la divulgation d’informations dans le cadre de procédures judiciaires ou de litiges).
+                <br /> <br />
+            </div>
+            • Lorsque vous donnez votre consentement à Jungle ou que cela est conforme à vos choix :
+            <div class="col-12">
+                - Pour vous envoyer des informations sur les produits et services Jungle, des offres spéciales et
+                des informations similaires, et partager vos informations avec des tiers à des fins de marketing
+                (lorsque votre consentement est requis). <br />
+                - Pour placer des cookies et utiliser des technologies similaires sur nos sites Web, sur nos
+                applications et dans les communications par e-mail, conformément à notre Politique en matière de cookies
+                et les informations qui vous sont fournies lorsque ces technologies sont utilisées. <br />
+                - Pour accéder aux informations stockées sur votre appareil concernant votre utilisation et votre
+                engagement dans des sites Web et des applications (par exemple, Jungle Connect Meetings) et les rapports
+                d’erreur. <br />
+                - Pour utiliser des systèmes automatisés permettant d’analyser votre contenu en utilisant des
+                techniques telles que l’apprentissage automatique afin d’améliorer nos services et l’expérience
+                utilisateur (lorsque votre consentement est nécessaire). <br /> <br />
+            </div>
+            • Lorsque nous vous demandons votre consentement à d’autres occasions, nous utilisons vos
+            informations aux fins communiquées à ces occasions.
+            <div class="col-12">
+                - Pour des raisons légales :
+                <div class="col-12">
+                    * Pour répondre aux demandes du gouvernement ou des forces de police lors d’une enquête. <br />
+                    * Pour détecter, prévenir ou traiter les problèmes de fraude, de sécurité ou techniques et le
+                    piratage des logiciels (par exemple, pour confirmer que le logiciel est authentique et correctement
+                    concédé sous licence) et contribuer à vous protéger, ainsi que Jungle. <br /> <br />
+                </div>
+            </div>
+            Actuellement et uniquement aux États-Unis et au Canada, Jungle utilise vos informations dans le cadre du
+            programme Jungle Experience Cloud Device Co-op pour mieux comprendre comment vous utilisez les
+            applications et les sites Web Jungle sur vos différents appareils, et pour adapter les publicités en
+            fonction de vos centres d’intérêt potentiels
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap" id="info_partage">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Mes informations personnelles sont-elles partagées par Jungle ?</h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            <h6><br /> I) Partage avec d’autres Responsables du contrôle des données. </h6>
+            <div class="col-12">
+                Nous partageons vos informations personnelles au sein de la famille d’entreprises Jungle aux fins
+                identifiées ci-dessus (voir la liste des entités Jungle et des sociétés acquises par Jungle ). Les types
+                de tiers avec lesquels vos informations peuvent être partagées comprennent nos revendeurs et autres
+                partenaires commerciaux et publicitaires, détaillants, organismes de recherche, annonceurs, agences
+                publicitaires, réseaux et plateformes publicitaires, fournisseurs de services d’information, éditeurs et
+                organisations à but non lucratif (avec votre consentement, si nécessaire). <br />
+                Nous partageons des informations personnelles avec des sociétés, organisations ou individus en
+                dehors de Jungle si nous pensons de bonne foi que l’accès, l’utilisation, la conservation ou la
+                divulgation des informations sont raisonnablement nécessaires pour détecter, prévenir ou résoudre toute
+                question de sécurité ou technique, ainsi que pour protéger nos utilisateurs ou le public contre les
+                dommages aux droits, la propriété ou la sécurité de Jungle, tel que requis ou permis par la loi.
+            </div>
+            <h6><br /> II) Partage avec des services de traitement des données. </h6>
+            <div class="col-12">
+                Nous partageons également vos informations personnelles avec des sociétés qui nous aident à gérer
+                notre entreprise en traitant des informations personnelles au nom de Jungle aux fins identifiées
+                ci-dessus. Ces sociétés comprennent les fournisseurs de services clientèle, les services de traitement
+                des paiements, la surveillance et la prévention des fraudes, le courrier électronique, les réseaux
+                sociaux et d’autres plateformes et fournisseurs de services marketing, ainsi que les services
+                d’hébergement.
+            </div>
+            <h6><br /> III) Autre partage d’informations.</h6>
+            <div class="col-12">
+                Jungle peut également partager vos informations personnelles :
+                • Avec votre accord. <br />
+                • Lorsque nous sommes dans l’obligation de fournir ces informations pour répondre à une citation à
+                comparaître, une injonction du tribunal ou toute autre procédure juridique ou légale en vigueur ( en
+                savoir plus). <br />
+                • Lorsque nous estimons de bonne foi que la divulgation de ces informations est nécessaire pour
+                empêcher ou réagir à une fraude, défendre nos sites Web ou applications contre des attaques ou protéger
+                la propriété et la sécurité de Jungle, de nos clients, de nos utilisateurs ou du public. <br />
+                • En cas de fusion ou d’acquisition par une autre entreprise, de vente d’un site Web, d’une
+                application ou d’une entité commerciale de Jungle ou d’acquisition de la totalité ou d’une grande partie
+                de nos actifs par une autre entreprise, vos informations seront probablement divulguées à nos
+                conseillers et aux conseillers de l’acheteur éventuel et représenteront l’un des actifs concernés par le
+                transfert au nouveau propriétaire. <br />
+                Nous pouvons être amenés à partager ou publier des informations agrégées qui ne vous identifient
+                pas spécifiquement, par exemple des données statistiques sur les visiteurs de nos sites Web ou sur la
+                manière dont les clients utilisent Jungle Experience Cloud.
+            </div>
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap" id="info_app_jungle">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Mes informations personnelles apparaissent-elles sur des sites Web Jungle ?</h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Les sites Web et applications Jungle comportent plusieurs zones permettant de poster des commentaires,
+            charger des photos ou envoyer un contenu visible par d’autres utilisateurs. Vous pouvez parfois décider
+            de qui peut consulter les éléments que vous partagez, mais certaines zones permettent au grand public ou
+            à d’autres membres du site Web ou de l’application de voir ce que vous diffusez. Soyez vigilant lorsque
+            vous partagez vos informations personnelles. Ne partagez pas de données que vous ne voulez pas divulguer
+            au public, sauf si vous êtes certain de les poster sur un site Web ou une application qui permet de
+            contrôler les éléments publiés. Remarque : lorsque vous postez des messages sur certains forums de nos
+            sites Web et applications, votre adresse e-mail ou votre nom et/ou votre photo de profil peuvent
+            apparaître avec votre message. <br />
+            Pour supprimer le contenu partagé sur nos sites Web et applications, utilisez la même fonction que
+            lors du partage. Si un autre utilisateur vous invite à afficher, modifier ou commenter du contenu
+            partagé, vous avez parfois la possibilité de supprimer vos contributions, mais généralement le contrôle
+            total revient à l’utilisateur qui vous a invité.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap" id="info_secure">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Mes informations personnelles sont-elles sécurisées ?</h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Nous savons combien il est important que vos informations personnelles soient en sécurité. Nous avons
+            mis en place des contrôles de sécurité administratifs, techniques et physiques raisonnables pour
+            protéger vos informations personnelles. Toutefois, en dépit de nos efforts, aucun contrôle de sécurité
+            n’est efficace à 100 % et Jungle ne peut garantir la sécurité de vos informations personnelles.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap" id="info_stockage">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Où mes informations personnelles sont-elles stockées par Jungle ?</h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Vos informations personnelles et fichiers de données sont stockés sur les serveurs de Jungle et
+            d’entreprises prestataires de services.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap" id="info_transfert">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Mes informations personnelles sont-elles transférées au-delà des frontières nationales
+                par Jungle ?</h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Nous pouvons être amenés à transférer vos informations personnelles à l’étranger, conformément aux
+            législations applicables. <br /> <br />
+            Si vous résidez en dehors de l’Amérique du Nord, vous serez en relation avec Jungle Ireland. Jungle
+            Ireland transférera vos informations personnelles à certaines organisations situées en dehors de
+            l’Espace économique européen (EEE) et de la Suisse, à savoir les États-Unis et l’Inde, ainsi que
+            d’autres sites sur lesquels Jungle pourrait être implanté à l’avenir. <br /> <br />
+            Lorsque Jungle Ireland transfère vos informations personnelles à un pays qui ne fait pas partie de
+            l’EEE et n’est pas soumis à une décision d’adéquation par la Commission européenne, nous nous appuyons
+            sur un ou plusieurs des mécanismes juridiques suivants : le Bouclier de protection de données
+            UE-États-Unis, le Bouclier de protection des données Suisse-État-Unis, les clauses contractuelles
+            standard approuvées par la Commission européenne et votre consentement dans certaines circonstances. Une
+            copie du mécanisme pertinent peut vous être fournie sur demande, à l’aide des coordonnées fournies à la
+            fin de cette Politique de confidentialité. Pour plus d’informations sur la certification de Jungle U.S.
+            concernant le Bouclier de protection des données UE-États-Unis, y compris l’étendue de notre
+            certification, veuillez vous référer à la page Bouclier de protection/Transferts de données depuis
+            l’Europe. <br /> <br />
+            Les informations ci-dessus s’appliquent aux utilisateurs de Jungle qui sont également des
+            consommateurs. Des informations supplémentaires sont disponibles pour nos clients professionnels qui
+            souhaitent en savoir plus sur les transferts de données depuis l’Union européenne.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap" id="info_droit">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Quels droits ai-je sur mes informations personnelles et comment puis-je les exercer ?
+            </h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Selon la loi de certains pays, vous pouvez avoir le droit de nous demander une copie de vos informations
+            personnelles ; pour corriger, supprimer ou restreindre le traitement de vos informations personnelles
+            (ou arrêter tout traitement actif) ; et pour obtenir les renseignements personnels que vous nous
+            fournissez pour un contrat ou, avec votre consentement, dans un format structuré et lisible par machine,
+            et pour nous demander de partager (transmettre) cette information à un autre contrôleur. <br />
+            De plus, vous pouvez vous opposer au traitement de vos informations personnelles dans certaines
+            circonstances (en particulier, lorsque nous n’avons pas à traiter les informations pour répondre à une
+            exigence contractuelle ou autre exigence légale, ou lorsque nous utilisons les informations à des fins
+            de marketing direct). <br />
+            Ces droits peuvent être limités, par exemple, si l’exécution de votre demande révèle des
+            informations personnelles sur une autre personne, ou si vous nous demandez de supprimer des informations
+            que nous sommes tenus par la loi de conserver ou que nous avons des intérêts légitimes et impérieux à
+            conserver (par exemple pour la prévention des fraudes). <br />
+            Pour exercer l’un de ces droits (y compris la désactivation de votre compte Jungle ID), vous pouvez
+            nous contacter - ou contacter notre responsable de la protection des données - en utilisant les
+            informations ci-dessous. De plus, beaucoup de nos sites Web et applications vous permettent de modifier
+            vos informations personnelles par l’intermédiaire d’une fonction « mon compte », « mon profil » ou d’une
+            autre fonctionnalité similaire du site Web ou de l’application que vous utilisez. De la même manière,
+            vous pouvez supprimer les fichiers ou les photos stockés sur nos sites Web et applications en vous
+            connectant à ces derniers et en utilisant les fonctions de suppression offertes. <br />
+            Si vous avez d’autres préoccupations, vous avez le droit de les signaler à une autorité de
+            protection des données de l’UE ou à une autre autorité de protection des données du pays où vous vivez,
+            travaillez ou pensez qu’une violation potentielle a eu lieu. <br />
+            Pour vous enregistrer auprès de Jungle, créer un Jungle ID et utiliser des sites Web, applications,
+            produits ou services Jungle, vous devez fournir certaines informations : si vous ne nous communiquez pas
+            les informations requises et adéquates, nous ne serons pas en mesure d’administrer votre compte Jungle
+            ou de vous fournir les sites Web, applications, produits ou services demandés. Toute autre communication
+            de vos informations est facultative. Le fait de fournir des informations facultatives nous permettra de
+            vous offrir une meilleure expérience, comme un contenu ou des offres plus personnalisés ou sur mesure.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap" id="retrait">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Retrait de votre consentement ou refus du marketing direct.</h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Le groupe Jungle (consultez la liste des entités Jungle et des entreprises acquises par Jungle ) et les
+            sociétés auxquelles nous recourons pour nous aider à promouvoir nos sites Web et applications en notre
+            nom peuvent utiliser vos données pour vous communiquer des informations et des offres liées à Jungle. <br />
+            Chaque fois que nous nous appuyons sur votre consentement, vous êtes toujours en mesure de retirer
+            ce consentement, bien que nous puissions avoir d’autres raisons légales de traiter vos informations à
+            d’autres fins, telles que celles énoncées ci-dessus. Dans certains cas, nous pouvons vous envoyer du
+            marketing direct sans votre consentement, lorsque nous nous appuyons sur nos intérêts légitimes. Vous
+            avez le droit absolu de refuser le marketing direct, ou le profilage que nous effectuons pour le
+            marketing direct, à tout moment en : <br />
+            • Mettant à jour vos préférences dans votre profil Jungle ID. <br />
+            • Mettant à jour vos préférences sur votre compte de site Web ou d’application spécifique. <br />
+            • En cliquant sur le lien de désabonnement au bas de nos e-mails marketing. <br />
+            • Nous contactant à l’aide des détails fournis à la fin de cette Politique de confidentialité.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap" id="info_conserve">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Pendant combien de temps mes informations sont-elles conservées par Jungle ?</h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Lorsque vous vous inscrivez avec un compte Jungle ID, nous traitons et conservons la plupart des
+            informations personnelles que nous détenons à votre sujet aussi longtemps que vous êtes un utilisateur
+            actif de nos produits, services ou applications. Lorsque vous fermez votre compte, nous commençons par
+            supprimer certaines informations personnelles qui n’ont plus d’intérêt commercial, telles que votre mot
+            de passe haché et vos données de compte de paiement. Cependant, nous conservons généralement les
+            informations personnelles relatives à notre contrat et aux transactions commerciales avec vous pendant
+            sept ans après votre dernière interaction avec nous. <br />
+            Lorsque nous traitons des informations personnelles à des fins de marketing ou avec votre
+            consentement, nous traitons les informations jusqu’à ce que vous nous demandiez d’arrêter et pendant une
+            courte période après votre demande (pour nous permettre de mettre en œuvre vos demandes). Nous
+            conservons également une trace permanente du fait que vous nous avez demandé de ne pas vous envoyer de
+            marketing direct ou de traiter vos informations afin que nous puissions respecter votre demande à
+            l’avenir.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap" id="change_pol">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Cette Politique de confidentialité va-t-elle changer ?</h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Occasionnellement, nous pouvons modifier la présente Politique de confidentialité (ou d’autres documents
+            du Centre de traitement des données personnelles de Jungle) pour permettre à Jungle d’utiliser ou de
+            partager vos informations personnelles de manière différente. Dans ce cas, les liens renvoyant à cette
+            politique sur nos sites Web (qui sont généralement placés en pied de page sur le site Web) indiqueront
+            que la politique a été modifiée. Pour les nouveaux utilisateurs, les modifications en question
+            deviennent effectives dès leur publication. Pour les utilisateurs existants, si les modifications sont
+            importantes, elles deviennent effectives 30 jours après la publication. Nous vous encourageons à
+            consulter régulièrement le Centre de traitement des données personnelles de Jungle pour prendre
+            connaissance des dernières informations sur nos pratiques en matière de confidentialité.
+        </div>
+    </div>
+
+    <div class="row css-gallery css-comment css-profil-ap" id="info_contact">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon">Qui puis-je contacter si j’ai des questions ou des remarques ?</h5>
+        </div>
+        <div class="row css-gallery css-desc-ap">
+            Pour toute question, remarque ou demande liée au traitement des données personnelles, veuillez renseigner
+            un formulaire de demande sur les données personnelles. <br />
+            Vous pouvez également contacter le responsable de la protection des données de Jungle à l’adresse
+            DPO@jungle.com.
+        </div>
+    </div>
+
+    <div>
+        <a href="#arrow" class="css-arrow">
+            <i class="fas fa-arrow-circle-up"></i>
+        </a>
+    </div>
+
+    <!-- Footer !-->
+    <div class="footer">
+        <footer>
+            <div class="footer-copyright text-center py-3">
+                © 2019 <a href="index.html">Jungle.com</a> | <a href="mentions_legales.html">Mentions légales</a> |
+                <a href="confidentialite.html">Confidentialité</a> | <a href="rgpd.html">RGPD</a> | <a
+                    href="condition_use.html">Conditions
+                    d'utilisation</a> | <a href="cookies.html">Cookies</a> | <a href="mailto:exemple@exemple.com">Nous
+                    contacter</a>
+            </div>
+        </footer>
+    </div>
+
+</body>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Jungle</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Fontawesome CSS !-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- Bootstrap CSS !-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!-- Bootstrap network CSS !-->
+    <link href="dist/css/bootstrap-social.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Jquery !-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper CSS !-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <!-- Bootstrap JS !-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <!-- Logo !-->
+    <link rel="shortcut icon" type="image/x-icon" href="dist/image/logo/icon_jungle.ico" />
+    <!-- Custom CSS !-->
+    <link href="dist/css/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<!-- Zoom les images publicitaires !-->
+<script>
+$(document).ready(function() {
+    $(".zoom").hover(function() {
+        $(this).addClass('transition');
+    }, function() {
+        $(this).removeClass('transition');
+    });
+});
+</script>
+
+<body>
+
+    <!-- Navigation !-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand index" href="index.html">
+            <img src="dist/image/logo/logo_jungle.png" width="35" height="35" class="d-inline-block align-top" alt="">
+            Jungle
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                            <option selected>Catégorie</option>
+                            <option value="0">Animaux</option>
+                            <option value="1">Art</option>
+                            <option value="2">Automobile</option>
+                            <option value="3">Fleurs</option>
+                            <option value="4">Food</option>
+                            <option value="5">Galaxy</option>
+                            <option value="6">Informatique</option>
+                            <option value="7">Musique</option>
+                            <option value="8">Objet</option>
+                            <option value="9">Sport</option>
+                            <option value="10">Texture</option>
+                            <option value="11">Urbain</option>
+                        </select>
+                        <a href="search_result.html"><button type="button" class="btn btn-success"><i
+                                    class="fas fa-search"></i></button></a>
+                    </form>
+                </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item">
+                    <a class="active-deco" href="all_categories.html"><i class="fas fa-leaf"></i> Catégorie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="active-deco" href="connexion.html"><i class="fas fa-sign-in-alt"></i> Se connecter</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Abonnement à une catégorie !-->
+    <div class="row css-band-abo">
+        <div class="col-sm-6 css-align-cat">
+            <i class="fas fa-leaf"></i> Paysages
+        </div>
+        <div class="col-sm-6 css-align-btn">
+            <button type="button" class="btn btn-dark ">Suivre</button>
+            <button type="button" class="btn btn-success ">Abonné(e)</button>
+        </div>
+
+    </div>
+
+
+    <!-- Affichage de la photo et de l'espace commentaire !-->
+    <div class="row css-gallery" id="css-aff-photo">
+        <div class="col-lg-7">
+            <img src="dist/image/jungle/jun_15.jpg" id="css-see-photo" alt="" class="css-ad">
+            <div class="row css-gallery css-comment">
+                <h5 class="css-icon css-title"><i class="fas fa-comments"></i> Commentaires <span
+                        class="badge badge-success">1</span></h5>
+                <div class="comments">
+                    <div class="comment-wrap">
+                        <div class="photo">
+                            <div class="avatar" style="background-image: url('dist/image/avatar/avatar.png')"></div>
+                        </div>
+                        <div class="comment-block">
+                            <form action="">
+                                <textarea name="" id="" cols="30" rows="3" placeholder="Add comment..."></textarea>
+                                <button type="button" class="btn btn-success css-add-comment"><i
+                                        class="fas fa-comment-medical"></i> Envoyer</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="comment-wrap">
+                        <div class="photo">
+                            <div class="avatar" style="background-image: url('dist/image/avatar/avatar.png')"></div>
+                        </div>
+                        <div class="comment-block">
+                            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+                                temporibus iste nostrum dolorem natus recusandae incidunt voluptatum. Eligendi
+                                voluptatum ducimus architecto tempore, quaerat explicabo veniam fuga corporis totam
+                                reprehenderit quasi
+                                sapiente modi tempora at perspiciatis mollitia, dolores voluptate. Cumque, corrupti?</p>
+                            <div class="bottom-comment">
+                                <div class="comment-date">14 Fév. 2019 - 10:56</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Module : Informations !-->
+        <div class="col-lg-5" id="css-info-pic">
+            <div class="css-tuile-pic text-center">
+                <img src="dist/image/avatar/avatar.png" class="rounded-circle" width="70" height="70" alt="">
+                <h5><a href="profil.html">Free-Photos</a></h5>
+                159 photos
+            </div>
+            <div class="css-tuile-pic text-center">
+                <button type="button" class="btn btn-success"><i class="fas fa-share-alt"></i></button>
+                <button type="button" class="btn btn-success"><i class="fas fa-heart"></i> 1296</button>
+                <button type="button" class="btn btn-success"><i class="fas fa-download"></i> 365</button>
+                <button type="button" class="btn btn-dark"><i class="fas fa-envelope"></i> Contacter</button>
+                <button type="button" class="btn btn-dark">Suivre</button>
+            </div>
+            <div class="css-tuile-pic text-center">
+                <h5><span class="badge badge-secondary">#jungle</span> <span
+                        class="badge badge-secondary">#paysage</span> <span
+                        class="badge badge-secondary">#landscape</span> <span
+                        class="badge badge-secondary">#green</span>
+                </h5>
+            </div>
+            <div class="css-tuile-pic text-center">
+                <h3>Chutes d'eau</h3>
+            </div>
+            <div class="css-tuile-pic text-justify">
+                Armeniorum dicioni dicioni funditur Tigrane Gnaeus pedes dicioni pedes ambiens abstractas ambiens
+                superato amnis Armeniorum superato ambiens abstractas superato Orontes ambiens Gnaeus abstractas
+                funditur imosque mare Pompeius imosque celsi funditur funditur in quas Romanae illius funditur regnis
+                coniunxit abstractas mare.
+            </div>
+            <div class="css-tuile-pic text-center">
+                <button type="button" class="btn btn-success"><i class="fas fa-download"></i> Télécharger</button>
+                <button type="button" class="btn btn-secondary"><i class="fas fa-hand-holding-usd"></i> Faire un
+                    don</button>
+                <button type="button" class="btn btn-warning css-button"><i class="fas fa-pen-nib"></i>
+                    Modifier</button>
+                <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i> Supprimer</button>
+            </div>
+
+            <!-- Autres photos !-->
+            <div class="row css-gallery css-comment">
+                <div class="row css-gallery css-title col-lg-12">
+                    <h5 class="css-icon"><i class="fas fa-leaf"></i> Autres photos de Free-Photos </h5>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/free_photos/fp_6.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/free_photos/fp_1.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/free_photos/fp_2.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/free_photos/fp_7.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/free_photos/fp_3.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/jungle/jun_16.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/free_photos/fp_4.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/free_photos/fp_5.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Images similaires !-->
+            <div class="row css-gallery css-comment">
+                <div class="row css-gallery css-title col-lg-12">
+                    <h5 class="css-icon"><i class="fas fa-camera"></i> Images similaires </h5>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/jungle/jun_1.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/jungle/jun_2.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/jungle/jun_3.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/jungle/jun_4.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/jungle/jun_5.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/jungle/jun_6.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/jungle/jun_7.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3 thumb">
+                    <a href="detail_photo.html" rel="ligthbox">
+                        <img src="dist/image/jungle/jun_8.jpg" class="zoom img-fluid " alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer !-->
+    <div class="footer">
+        <footer>
+            <div class="footer-copyright text-center py-3">
+                © 2019 <a href="index.html">Jungle.com</a> | <a href="mentions_legales.html">Mentions légales</a> |
+                <a href="confidentialite.html">Confidentialité</a> | <a href="rgpd.html">RGPD</a> | <a
+                    href="condition_use.html">Conditions
+                    d'utilisation</a> | <a href="cookies.html">Cookies</a> | <a href="mailto:exemple@exemple.com">Nous
+                    contacter</a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+<!-- Scripts JS !-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+</script>

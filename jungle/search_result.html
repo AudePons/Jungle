@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Jungle</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Fontawesome CSS !-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- Bootstrap CSS !-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!-- Bootstrap network CSS !-->
+    <link href="dist/css/bootstrap-social.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Jquery !-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper CSS !-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <!-- Bootstrap JS !-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <!-- Logo !-->
+    <link rel="shortcut icon" type="image/x-icon" href="dist/image/logo/icon_jungle.ico" />
+    <!-- Custom CSS !-->
+    <link href="dist/css/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<!-- Zoom les images publicitaires !-->
+<script>
+$(document).ready(function() {
+    $(".zoom").hover(function() {
+        $(this).addClass('transition');
+    }, function() {
+        $(this).removeClass('transition');
+    });
+});
+</script>
+
+<body>
+
+    <!-- Navigation !-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="arrow">
+        <a class="navbar-brand index" href="index.html">
+            <img src="dist/image/logo/logo_jungle.png" width="35" height="35" class="d-inline-block align-top" alt="">
+            Jungle
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                            <option selected>Catégorie</option>
+                            <option value="0">Animaux</option>
+                            <option value="1">Art</option>
+                            <option value="2">Automobile</option>
+                            <option value="3">Fleurs</option>
+                            <option value="4">Food</option>
+                            <option value="5">Galaxy</option>
+                            <option value="6">Informatique</option>
+                            <option value="7">Musique</option>
+                            <option value="8">Objet</option>
+                            <option value="9">Sport</option>
+                            <option value="10">Texture</option>
+                            <option value="11">Urbain</option>
+                        </select>
+                        <a href="search_result.html"><button type="button" class="btn btn-success"><i
+                                    class="fas fa-search"></i></button></a>
+                    </form>
+                </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item">
+                    <a class="active-deco" href="all_categories.html"><i class="fas fa-leaf"></i> Catégorie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="active-deco" href="connexion.html"><i class="fas fa-sign-in-alt"></i> Se connecter</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Module : Les plus aimées !-->
+    <div class="row css-gallery css-ad css-comment">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon"><i class="fas fa-heart"></i> Les plus aimées </h5>
+        </div>
+        <div class="col-sm-2 thumb">
+            <a href="detail_photo.html" rel="ligthbox">
+                <img src="dist/image/jungle/jun_1.jpg" class="zoom img-fluid " alt="">
+            </a>
+        </div>
+        <div class="col-sm-2 thumb">
+            <a href="detail_photo.html" rel="ligthbox">
+                <img src="dist/image/jungle/jun_2.jpg" class="zoom img-fluid " alt="">
+            </a>
+        </div>
+        <div class="col-sm-2 thumb">
+            <a href="detail_photo.html" rel="ligthbox">
+                <img src="dist/image/jungle/jun_3.jpg" class="zoom img-fluid " alt="">
+            </a>
+        </div>
+        <div class="col-sm-2 thumb">
+            <a href="detail_photo.html" rel="ligthbox">
+                <img src="dist/image/jungle/jun_4.jpg" class="zoom img-fluid " alt="">
+            </a>
+        </div>
+        <div class="col-sm-2 thumb">
+            <a href="detail_photo.html" rel="ligthbox">
+                <img src="dist/image/jungle/jun_5.jpg" class="zoom img-fluid " alt="">
+            </a>
+        </div>
+        <div class="col-sm-2 thumb">
+            <a href="detail_photo.html" rel="ligthbox">
+                <img src="dist/image/jungle/jun_6.jpg" class="zoom img-fluid " alt="">
+            </a>
+        </div>
+    </div>
+
+    <!-- Module : Les plus téléchargées !-->
+    <div class="row css-gallery css-ad css-comment">
+        <div class="row css-gallery css-title col-lg-12">
+            <h5 class="css-icon"><i class="fas fa-download"></i> Les plus téléchargées </h5>
+        </div>
+        <div class="col-sm-2 thumb">
+            <a href="detail_photo.html" rel="ligthbox">
+                <img src="dist/image/jungle/jun_7.jpg" class="zoom img-fluid " alt="">
+            </a>
+        </div>
+        <div class="col-sm-2 thumb">
+            <a href="detail_photo.html" rel="ligthbox">
+                <img src="dist/image/jungle/jun_8.jpg" class="zoom img-fluid " alt="">
+            </a>
+        </div>
+        <div class="col-sm-2 thumb">
+            <a href="detail_photo.html" rel="ligthbox">
+                <img src="dist/image/jungle/jun_9.jpg" class="zoom img-fluid " alt="">
+            </a>
+        </div>
+        <div class="col-sm-2 thumb">
+            <a href="detail_photo.html" rel="ligthbox">
+                <img src="dist/image/jungle/jun_10.jpg" class="zoom img-fluid " alt="">
+            </a>
+        </div>
+        <div class="col-sm-2 thumb">
+            <a href="detail_photo.html" rel="ligthbox">
+                <img src="dist/image/jungle/jun_11.jpg" class="zoom img-fluid " alt="">
+            </a>
+        </div>
+        <div class="col-sm-2 thumb">
+            <a href="detail_photo.html" rel="ligthbox">
+                <img src="dist/image/jungle/jun_12.jpg" class="zoom img-fluid " alt="">
+            </a>
+        </div>
+    </div>
+
+    <!-- Galerie infinite scroll résultat !-->
+    <div class="row css-gallery css-img">
+        <div class="col-sm-3 thumb">
+            <a href="detail_photo.html">
+                <img src="dist/image/jungle/jun_13.jpg" class=" css-zoom-gal img-fluid " alt="">
+                <div class="middle">
+                    <div class="text-info-left">
+                        <button type="button" class="btn btn-success">©alvaroas8a0</button>
+                    </div>
+                    <div class="text-info-right">
+                        <button type="button" class="btn btn-success"><i class="fas fa-heart css-icon"></i>
+                            1296</button>
+                        <button type="button" class="btn btn-success"><i class="fas fa-download css-icon"></i>
+                            365</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-3 thumb">
+            <a href="detail_photo.html">
+                <img src="dist/image/jungle/jun_14.jpg" class=" css-zoom-gal img-fluid " alt="">
+                <div class="middle">
+                    <div class="text-info-left">
+                        <button type="button" class="btn btn-success">©12019</button>
+                    </div>
+                    <div class="text-info-right">
+                        <button type="button" class="btn btn-success"><i class="fas fa-heart css-icon"></i>
+                            1296</button>
+                        <button type="button" class="btn btn-success"><i class="fas fa-download css-icon"></i>
+                            365</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-3 thumb">
+            <a href="detail_photo.html">
+                <img src="dist/image/jungle/jun_15.jpg" class=" css-zoom-gal img-fluid " alt="">
+                <div class="middle">
+                    <div class="text-info-left">
+                        <button type="button" class="btn btn-success">©Free-Photos</button>
+                    </div>
+                    <div class="text-info-right">
+                        <button type="button" class="btn btn-success"><i class="fas fa-heart css-icon"></i>
+                            1296</button>
+                        <button type="button" class="btn btn-success"><i class="fas fa-download css-icon"></i>
+                            365</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-3 thumb">
+            <a href="detail_photo.html">
+                <img src="dist/image/jungle/jun_16.jpg" class=" css-zoom-gal img-fluid " alt="">
+                <div class="middle">
+                    <div class="text-info-left">
+                        <button type="button" class="btn btn-success">©Free-Photos</button>
+                    </div>
+                    <div class="text-info-right">
+                        <button type="button" class="btn btn-success"><i class="fas fa-heart css-icon"></i>
+                            1296</button>
+                        <button type="button" class="btn btn-success"><i class="fas fa-download css-icon"></i>
+                            365</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-3 thumb">
+            <a href="detail_photo.html">
+                <img src="dist/image/jungle/jun_17.jpg" class=" css-zoom-gal img-fluid " alt="">
+                <div class="middle">
+                    <div class="text-info-left">
+                        <button type="button" class="btn btn-success">©teadrinker</button>
+                    </div>
+                    <div class="text-info-right">
+                        <button type="button" class="btn btn-success"><i class="fas fa-heart css-icon"></i>
+                            1296</button>
+                        <button type="button" class="btn btn-success"><i class="fas fa-download css-icon"></i>
+                            365</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-3 thumb">
+            <a href="detail_photo.html">
+                <img src="dist/image/jungle/jun_18.jpg" class=" css-zoom-gal img-fluid " alt="">
+                <div class="middle">
+                    <div class="text-info-left">
+                        <button type="button" class="btn btn-success">©Pexels</button>
+                    </div>
+                    <div class="text-info-right">
+                        <button type="button" class="btn btn-success"><i class="fas fa-heart css-icon"></i>
+                            1296</button>
+                        <button type="button" class="btn btn-success"><i class="fas fa-download css-icon"></i>
+                            365</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-3 thumb">
+            <a href="detail_photo.html">
+                <img src="dist/image/jungle/jun_19.jpg" class=" css-zoom-gal img-fluid " alt="">
+                <div class="middle">
+                    <div class="text-info-left">
+                        <button type="button" class="btn btn-success">©nickharder</button>
+                    </div>
+                    <div class="text-info-right">
+                        <button type="button" class="btn btn-success"><i class="fas fa-heart css-icon"></i>
+                            1296</button>
+                        <button type="button" class="btn btn-success"><i class="fas fa-download css-icon"></i>
+                            365</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-3 thumb">
+            <a href="detail_photo.html">
+                <img src="dist/image/jungle/jun_20.jpg" class=" css-zoom-gal img-fluid " alt="">
+                <div class="middle">
+                    <div class="text-info-left">
+                        <button type="button" class="btn btn-success">©cc-content</button>
+                    </div>
+                    <div class="text-info-right">
+                        <button type="button" class="btn btn-success"><i class="fas fa-heart css-icon"></i>
+                            1296</button>
+                        <button type="button" class="btn btn-success"><i class="fas fa-download css-icon"></i>
+                            365</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div>
+        <a href="#arrow" class="css-arrow">
+            <i class="fas fa-arrow-circle-up"></i>
+        </a>
+    </div>
+
+    <!-- Footer !-->
+    <div class="footer">
+        <footer>
+            <div class="footer-copyright text-center py-3">
+                © 2019 <a href="index.html">Jungle.com</a> | <a href="mentions_legales.html">Mentions légales</a> |
+                <a href="confidentialite.html">Confidentialité</a> | <a href="rgpd.html">RGPD</a> | <a
+                    href="condition_use.html">Conditions
+                    d'utilisation</a> | <a href="cookies.html">Cookies</a> | <a href="mailto:exemple@exemple.com">Nous
+                    contacter</a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+<!-- Scripts JS !-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+</script>
