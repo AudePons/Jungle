@@ -38,6 +38,24 @@ All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the fol
 ## Project Architecture
 * dist : Contains all the images and CSS files.
 ## description of the modules
+### Advertising
+``` 
+### When displaying the results of a search there are two billboards :
+- The most loved photos
+- The most downloaded photos
+```
+``` 
+### When displaying the details of an image, there are two billboards :
+- The other photos of the user
+- Similar images
+```
+### Gallery
+``` 
+### The image gallery allows depending on the pages, some actions :
+- Share - Like (search_result.html)
+- Share - edit - delete (profil.html)
+- Follow (all_categories.html)
+```
 ### NavBar
 ``` 
 ### The navigation bar contains when one is not connected the menus :
@@ -65,108 +83,8 @@ All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the fol
 - Categories
 - Author
 ```
-
-
-
-
-
-### AudioModule.cs
-``` 
-### Bot join the tchat
-!join
-```
-``` 
-### Bot leave the tchat
-!leave
-```
-``` 
-### Bot plays music
-!play
-```
-### FootballModule.cs
-``` 
-### Indicates championships that can be set to parameters
-!infofoot
-```
-``` 
-### Get the list of games already played
-!matchplayed
-```
-``` 
-### Get the top 10 scorers of each championship
-!scorers
-```
-``` 
-### Get matches of the day
-!matchday
-```
-### GamePSRModule.cs
-``` 
-### Play, compare bot value and user value
-!start-psr
-```
-### HangmanModule.cs
-``` 
-### See all the commands to play Hangman Game
-!info-hangman  
-```
-``` 
-### Initialize the game
-!start  
-```
-``` 
-### Give the number of letters to find
-!indice 
-```
-``` 
-### Give the number of luck remaining
-!chance
-```
-``` 
-### Give the letters find
-!find
-```
-``` 
-### Compare letter with letters in mystery word
-### Give the results
-!letter
-```
-``` 
-### The user agrees to lose and wants to know the correct answer
-!forfeit
-```
-### HelpModule.cs
-``` 
-### Show all available commands according to a module
-!help 
-```
-### TruepriceModule.cs
-``` 
-### Give all commands to play true price game
-!info-tp
-```
-``` 
-### Initialize the game
-!start-tp 
-```
-``` 
-### User proposition
-### Compare user value and bot value
-!price
-```
-``` 
-### Give the number of test remaining
-!chance-tp
-```
-``` 
-### The user agrees to lose and wants to know the correct answer
-!forfeit-tp
-```
-### WeatherModule.cs
-``` 
-### Get the weather of your city
-!weather
-```
 ## Authors
 * Hakim MAKHTOUR
+* Mohamed ALAMI
+* Nelly LASSEGUE
 * Aude PONS
