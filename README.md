@@ -1,8 +1,14 @@
 ![alt tag](https://nsa39.casimages.com/img/2018/12/18/18121811411058877.png)
 ## The project
 Jungle is a project developed by MASTER students. It consists in creating a bank of images oriented social networks. You will only find the model. 
+## The logo
+The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/LassegueNelly/).
+## Frameworks
+* [Bootstrap](https://getbootstrap.com/)
+* [FontAwesome](https://fontawesome.com/)
+* [JQuery](https://jquery.com/)
 ## Photo Resources
-Toutes les photos proviennent du sites [Pixabay](https://pixabay.com/fr/) et des utilisateurs suivants :
+All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the following users :
 * [12019](https://pixabay.com/fr/users/12019-12019/)
 * [AlexanderStein](https://pixabay.com/fr/users/alexanderstein-45237/)
 * [alvaroas8a0](https://pixabay.com/fr/users/alvaroas8a0-593995/) 
@@ -25,7 +31,11 @@ Toutes les photos proviennent du sites [Pixabay](https://pixabay.com/fr/) et des
 * [teadrinker](https://pixabay.com/fr/users/teadrinker-3776864/) 
 * [terimakasih0](https://pixabay.com/fr/users/terimakasih0-624267/) 
 * [Yuri_B](https://pixabay.com/fr/users/yuri_b-2216431/) 
-## Package NuGet
+## Plugin Resources
+
+
+
+
 * [Discord.NET](https://www.nuget.org/packages/Discord.Net/)
 * [Discord.Net.Commands](https://www.nuget.org/packages/Discord.Net.Commands/)
 * [Discord.Net.WebSocket](https://www.nuget.org/packages/Discord.Net.WebSocket/)
