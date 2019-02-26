@@ -7,6 +7,10 @@ The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/Lassegue
 * [Bootstrap](https://getbootstrap.com/)
 * [FontAwesome](https://fontawesome.com/)
 * [JQuery](https://jquery.com/)
+## Plugin Resources
+All the following plugins made on the sites [Bootsnipp]() and [Code Pen]() :
+* [Comments](https://codepen.io/kavendish/pen/aOdopx)
+* [Image Gallery](https://bootsnipp.com/snippets/aMGnk)
 ## Photo Resources
 All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the following users :
 * [12019](https://pixabay.com/fr/users/12019-12019/)
@@ -31,7 +35,7 @@ All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the fol
 * [teadrinker](https://pixabay.com/fr/users/teadrinker-3776864/) 
 * [terimakasih0](https://pixabay.com/fr/users/terimakasih0-624267/) 
 * [Yuri_B](https://pixabay.com/fr/users/yuri_b-2216431/) 
-## Plugin Resources
+
 
 
 
