@@ -31,6 +31,8 @@ All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the fol
 ## Graphical charter
 ### The logo 
 The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/LassegueNelly/). The chosen writing font is [norrwester](https://www.fontsquirrel.com/fonts/norwester).
+### Color pallet
+
 
 
 
