@@ -33,6 +33,8 @@ All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the fol
 The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/LassegueNelly/). The chosen writing font is [norrwester](https://www.fontsquirrel.com/fonts/norwester).
 ### Color pallet
 ![alt-tag](https://nsa40.casimages.com/img/2019/02/27/19022707311759977.png)
+### FontAwesome Icons
+
 
 
 
