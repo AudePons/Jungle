@@ -13,9 +13,21 @@ All the following fonctions made on the sites [Bootsnipp](https://bootsnipp.com)
 * [Comments](https://codepen.io/kavendish/pen/aOdopx)
 * [Image Gallery](https://bootsnipp.com/snippets/aMGnk)
 ## Photo Resources
-All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the following users : [12019](https://pixabay.com/fr/users/12019-12019/), [AlexanderStein](https://pixabay.com/fr/users/alexanderstein-45237/), [alvaroas8a0](https://pixabay.com/fr/users/alvaroas8a0-593995/), [arunpnr](https://pixabay.com/fr/users/arunpnr-540691/), [bere69](https://pixabay.com/fr/users/bere69-3506936/), [cc-content](https://pixabay.com/fr/users/cc-content-80172/), [chengtzf](https://pixabay.com/fr/users/chengtzf-5538686/), [congerdesign](https://pixabay.com/fr/users/congerdesign-509903/), [Free-Photos](https://pixabay.com/fr/users/free-photos-242387/), [gorkhe1980](https://pixabay.com/fr/users/gorkhe1980-2469728/), [jossuetrejo_oficial](https://pixabay.com/fr/users/jossuetrejo_oficial-8361939/), [kolibri5](https://pixabay.com/fr/users/kolibri5-240538/), [Larisa-K](https://pixabay.com/fr/users/larisa-k-1107275/), [Mondschwinge](https://pixabay.com/fr/users/mondschwinge-1453918/), [nickharder](https://pixabay.com/fr/users/nickharder-324768/), [nile](https://pixabay.com/fr/users/nile-598962/), [Pexels](https://pixabay.com/fr/users/pexels-2286921/), [Ruwadium](https://pixabay.com/fr/users/ruwadium-1674203/), [slightly_different](https://pixabay.com/fr/users/slightly_different-2006397/), [teadrinker](https://pixabay.com/fr/users/teadrinker-3776864/) , [terimakasih0](https://pixabay.com/fr/users/terimakasih0-624267/), [Yuri_B](https://pixabay.com/fr/users/yuri_b-2216431/) 
+All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the following users : [12019](https://pixabay.com/fr/users/12019-12019/), [AlexanderStein](https://pixabay.com/fr/users/alexanderstein-45237/), [alvaroas8a0](https://pixabay.com/fr/users/alvaroas8a0-593995/), [arunpnr](https://pixabay.com/fr/users/arunpnr-540691/), [bere69](https://pixabay.com/fr/users/bere69-3506936/), [cc-content](https://pixabay.com/fr/users/cc-content-80172/), [chengtzf](https://pixabay.com/fr/users/chengtzf-5538686/), [congerdesign](https://pixabay.com/fr/users/congerdesign-509903/), [Free-Photos](https://pixabay.com/fr/users/free-photos-242387/), [gorkhe1980](https://pixabay.com/fr/users/gorkhe1980-2469728/), [jossuetrejo_oficial](https://pixabay.com/fr/users/jossuetrejo_oficial-8361939/), [kolibri5](https://pixabay.com/fr/users/kolibri5-240538/), [Larisa-K](https://pixabay.com/fr/users/larisa-k-1107275/), [Mondschwinge](https://pixabay.com/fr/users/mondschwinge-1453918/), [nickharder](https://pixabay.com/fr/users/nickharder-324768/), [nile](https://pixabay.com/fr/users/nile-598962/), [Pexels](https://pixabay.com/fr/users/pexels-2286921/), [Ruwadium](https://pixabay.com/fr/users/ruwadium-1674203/), [slightly_different](https://pixabay.com/fr/users/slightly_different-2006397/), [teadrinker](https://pixabay.com/fr/users/teadrinker-3776864/) , [terimakasih0](https://pixabay.com/fr/users/terimakasih0-624267/), [Yuri_B](https://pixabay.com/fr/users/yuri_b-2216431/).
 ## Project Architecture
 * dist : Contains all the images and CSS files.
+* add_photo.html : Allows the addition of an image on the site.
+* all_categories.html : Gallery of images representing all the themes recorded on the site.
+* condition_use.html
+* confidentialite.html
+* connexion.html : Allows you to connect with a basic account, with a Facebook, Google or Instgram account. Allows to register.
+* cookies.html
+* detail_photo.html : Allows to know more about the image (author, title, description, comments, category, tags, other interesting images).
+* index.html : Central page of the site. It contains a carousel, a search bar and a suggestion of images.
+* mentions_legales.html
+* profil.html : This file contains all the statistical and qualitative elements related to the user.
+* rgpd.html
+* search_result.html : File containing the results of the user's search.
 ## description of the modules
 ### Advertising
 ``` 
