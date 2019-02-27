@@ -1,4 +1,4 @@
-![alt tag](https://nsa40.casimages.com/img/2019/02/26/190226043523512671.png)
+![alt tag](https://nsa40.casimages.com/img/2019/02/27/190227033031683774.png)
 ## The project
 Jungle is a project developed by MASTER students. It consists in creating a bank of images oriented social networks. You will only find the model. 
 ## The logo
