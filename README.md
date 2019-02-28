@@ -34,11 +34,9 @@ The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/Lassegue
 ### Advertising space
 ![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228094812561945.png)
 ``` 
-### When 
-When you have searched on the page "search_result.html". Two spaces are planned are planned: "the most loved" and "the most downloaded".
-### When displaying the results of a search there are two billboards :
-- The most loved photos
-- The most downloaded photos
+### The "results" area has two advertising spaces :
+  - The most loved photos.
+  - The most downloaded photos
 ```
 
 
