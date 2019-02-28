@@ -44,6 +44,34 @@ The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/Lassegue
   - The other photos of the user
   - Similar images
 ```
+### Log in - Sign in
+![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228103140378953.png)
+``` 
+### On the login page it is possible to :
+  - Log in with a jungle account.
+  - Create a jungle account.
+  - Connect with Facebook, Google or Instagram.
+```
+### NavBar
+![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228103827912819.png)
+``` 
+### The navigation bar is divided into three parts :
+  - The corporate name.
+  - The search bar.
+  - Information related to the connected user :
+      * The history (consultations and research).
+      * Subscription notifications.
+      * Notifications related to messages.
+      * The profile of the user (avatar and nickname), with a submenu :
+          ** Profile
+          ** Add a picture
+          ** Log out
+```
+
+
+
+
+
 
 ### Comments
 ``` 
