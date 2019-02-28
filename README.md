@@ -44,6 +44,15 @@ The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/Lassegue
   - The other photos of the user
   - Similar images
 ```
+### Gallery
+Depending on the pages, the gallery is modified. Indeed, the possible actions on an image will not be the same.
+![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228110301992548.png)
+``` 
+### On the login page it is possible to :
+  - Log in with a jungle account.
+  - Create a jungle account.
+  - Connect with Facebook, Google or Instagram.
+```
 ### Log in - Sign in
 ![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228103140378953.png)
 ``` 
