@@ -44,6 +44,10 @@ The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/Lassegue
   - The other photos of the user
   - Similar images
 ```
+### Comments
+``` 
+### A user has the opportunity to comment on a photo.
+```
 ### Gallery
 Depending on the pages, the gallery is modified. Indeed, the possible actions on an image will not be the same.
 ![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228110301992548.png)
