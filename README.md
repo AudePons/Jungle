@@ -38,22 +38,13 @@ The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/Lassegue
   - The most loved photos.
   - The most downloaded photos
 ```
-
-
-
-
-
-### Advertising
+![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228102341289501.png)
 ``` 
 ### When displaying the results of a search there are two billboards :
-- The most loved photos
-- The most downloaded photos
+  - The other photos of the user
+  - Similar images
 ```
-``` 
-### When displaying the details of an image, there are two billboards :
-- The other photos of the user
-- Similar images
-```
+
 ### Comments
 ``` 
 ### It is possible to comment on a photo.
