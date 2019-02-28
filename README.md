@@ -67,6 +67,25 @@ The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/Lassegue
           ** Add a picture
           ** Log out
 ```
+### User profile
+![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228105229269142.png)
+``` 
+### The header of the profile page is divided into five main parts :
+  - Parameters
+  - User informations (country, date of registration, number of subscribers, website).
+  - Statistics (number of photos uploaded, number of likes total, total number of downloads).
+  - Social networks (facebook, instagram, twitter).
+  - The share buttons.
+  - The corporate name.
+```
+
+
+
+
+
+
+
+
 
 
 
