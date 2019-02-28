@@ -53,6 +53,18 @@ Depending on the pages, the gallery is modified. Indeed, the possible actions on
   - The number of likes.
   - The number of downloads.
 ```
+![aly-tag](https://nsa40.casimages.com/img/2019/02/28/190228021511252607.png)
+``` 
+### On the page "categories", we have : 
+  - The possibility to subscribe to a category.
+```
+![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228021752511348.png)
+``` 
+### On the page "profile", we have : 
+  - The possibility to share the picture.
+  - Update the picture.
+  - Delete the picture.
+```
 ### Log in - Sign in
 ![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228103140378953.png)
 ``` 
