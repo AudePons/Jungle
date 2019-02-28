@@ -30,10 +30,7 @@ The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/Lassegue
 ![alt-tag](https://nsa40.casimages.com/img/2019/02/27/19022707311759977.png)
 ### FontAwesome Icons
 ![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228090401822947.png)
-
-
-
-## description of the modules
+## Module descriptions
 ### Advertising
 ``` 
 ### When displaying the results of a search there are two billboards :
