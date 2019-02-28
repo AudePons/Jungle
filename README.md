@@ -34,7 +34,7 @@ The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/Lassegue
 ### Color pallet
 ![alt-tag](https://nsa40.casimages.com/img/2019/02/27/19022707311759977.png)
 ### FontAwesome Icons
-
+![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228090401822947.png)
 
 
 
