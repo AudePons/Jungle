@@ -18,15 +18,10 @@ All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the fol
 * dist : Contains all the images and CSS files.
 * add_photo.html : Allows the addition of an image on the site.
 * all_categories.html : Gallery of images representing all the themes recorded on the site.
-* condition_use.html
-* confidentialite.html
 * connexion.html : Allows you to connect with a basic account, with a Facebook, Google or Instgram account. Allows to register.
-* cookies.html
 * detail_photo.html : Allows to know more about the image (author, title, description, comments, category, tags, other interesting images).
 * index.html : Central page of the site. It contains a carousel, a search bar and a suggestion of images.
-* mentions_legales.html
 * profil.html : This file contains all the statistical and qualitative elements related to the user.
-* rgpd.html
 * search_result.html : File containing the results of the user's search.
 ## Graphical charter
 ### The logo 
