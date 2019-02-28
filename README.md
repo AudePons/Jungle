@@ -2,6 +2,7 @@
 ## The project
 Jungle is a project developed by the MASTER level students for the course "Coordination FRONT / BACK
 END "We have chosen to develop a social network oriented image bank, the goal is to be able to give importance to the work of users, and allow them to communicate. 
+![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228041507497136.png)
 ## Frameworks
 * [Bootstrap](https://getbootstrap.com/)
 * [FontAwesome](https://fontawesome.com/)
