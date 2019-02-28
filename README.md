@@ -48,10 +48,10 @@ The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/Lassegue
 Depending on the pages, the gallery is modified. Indeed, the possible actions on an image will not be the same.
 ![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228110301992548.png)
 ``` 
-### On the login page it is possible to :
-  - Log in with a jungle account.
-  - Create a jungle account.
-  - Connect with Facebook, Google or Instagram.
+### On the page "index" and on the page "resulat", we have : 
+  - The name of the photographer at the origin of the image.
+  - The number of likes.
+  - The number of downloads.
 ```
 ### Log in - Sign in
 ![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228103140378953.png)
