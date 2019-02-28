@@ -88,7 +88,3 @@ The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/Lassegue
 * Mohamed ALAMI
 * Nelly LASSEGUE
 * Aude PONS
-
-
-## The logo
-The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/LassegueNelly/).
