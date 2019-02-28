@@ -81,7 +81,7 @@ The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/Lassegue
 - Author
 ```
 ## Authors
-* Hakim MAKHTOUR
+* [Hakim MAKHTOUR](https://github.com/Hakimono)
 * Mohamed ALAMI
-* Nelly LASSEGUE
+* [Nelly LASSEGUE](https://github.com/Nelly95)
 * Aude PONS
