@@ -93,6 +93,16 @@ Depending on the pages, the gallery is modified. Indeed, the possible actions on
           ** Add a picture
           ** Log out
 ```
+### Update profile
+![alt-tag](https://nsa40.casimages.com/img/2019/03/01/190301040704469140.png)
+``` 
+### A logged in user has the possibility to modify his personal data :
+  - Avatar.
+  - Cover page.
+  - Social networks (facebook, instagram, twitter).
+  - Website.
+  - About.
+```
 ### User profile
 ![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228105229269142.png)
 ``` 
