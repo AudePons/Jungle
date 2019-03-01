@@ -99,6 +99,7 @@ a:hover, .navbar-dark .navbar-nav .nav-link:hover
     border-radius: 100%;
 }
 
+
 /* Module galerie publicitaire */
 .css-gallery
 {
@@ -731,5 +732,55 @@ p
 	  	white-space: normal;
 	  	text-align: justify;
 	  	font-size: 13px;
+	}
+}
+
+/* Module update profil */
+.css-up-tool
+{
+	height: 300px;
+}
+.css-col-up-tool
+{
+	margin-bottom: 2%;
+}
+.css-up-btn
+{
+	display: block;
+	margin: auto;
+}
+@media all and (max-width: 990px)
+{
+	.css-col-tool
+	{
+		margin-top: 10px;
+	}
+	.css-up-tool
+	{
+		height: auto;
+	}
+	.css-col-up-tool
+	{
+		margin-bottom: 2px
+		margin-top: 10pxs;
+	}
+	.css-up-btn
+	{
+		display: block;
+		margin: auto;
+	}
+	.footer-fixed
+	{
+		position: relative;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: #dddddd;
+		color: black;
+		text-align: center;
+		font-size: 13px;
+		height: auto;
+		z-index: 9999;
+		margin-top: 10px;
 	}
 }
